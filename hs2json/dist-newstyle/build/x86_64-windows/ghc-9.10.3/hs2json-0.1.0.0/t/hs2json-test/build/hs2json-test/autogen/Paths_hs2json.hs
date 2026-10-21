@@ -97,10 +97,10 @@ getSysconfDir :: IO FilePath
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 bindir     = "C:\\cabal\\bin"
-libdir     = "C:\\cabal\\x86_64-windows-ghc-9.10.3-b42a\\hs2json-0.1.0.0-inplace-hs2json"
+libdir     = "C:\\cabal\\x86_64-windows-ghc-9.10.3-b42a\\hs2json-0.1.0.0-inplace-hs2json-test"
 dynlibdir  = "C:\\cabal\\x86_64-windows-ghc-9.10.3-b42a"
 datadir    = "C:\\cabal\\x86_64-windows-ghc-9.10.3-b42a\\hs2json-0.1.0.0"
-libexecdir = "C:\\cabal\\hs2json-0.1.0.0-inplace-hs2json\\x86_64-windows-ghc-9.10.3-b42a\\hs2json-0.1.0.0"
+libexecdir = "C:\\cabal\\hs2json-0.1.0.0-inplace-hs2json-test\\x86_64-windows-ghc-9.10.3-b42a\\hs2json-0.1.0.0"
 sysconfdir = "C:\\cabal\\etc"
 
 getBinDir     = catchIO (getEnv "hs2json_bindir")     (\_ -> return bindir)
