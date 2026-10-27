@@ -123,7 +123,6 @@ isNull JNull                   -- True
 - **Inicialização do GHCi no Windows:** ocorreu o erro `addDLL: ucrt or dependencies not loaded (Win32 error 126)`. Foi necessário reinstalar o ambiente Haskell para conseguir executar o GHCi.
 - **Arquivos de compilação e OneDrive:** o Cabal encontrou `permission denied` ao tentar remover arquivos em `dist-newstyle`. Direcionar a compilação para `C:\cabal-build\hs2json` permitiu compilar a biblioteca e as dependências fora da pasta sincronizada. Em uma execução posterior, `cabal test` também concluiu com sucesso usando o diretório padrão.
 - **Arquivos gerados no Git:** o primeiro commit incluiu arquivos gerados dentro de `dist-newstyle`. Essa pasta deve ser ignorada pelo Git; mantenha uma regra como `**/dist-newstyle/` no `.gitignore`.
-- **Autenticação do GitHub:** o primeiro `git push` foi recusado porque as credenciais HTTPS não foram aceitas. A autenticação precisa estar configurada para enviar commits ao repositório remoto.
 
 ## Licença
 
