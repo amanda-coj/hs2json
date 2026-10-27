@@ -1,4 +1,4 @@
-# hs2json
+# Projeto hs2json
 
 Projeto em Haskell para representar valores JSON e serializá-los em formato legível (*pretty-printed*) ou compacto, sem depender de uma biblioteca externa de JSON para a lógica principal.
 
