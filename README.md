@@ -1,6 +1,6 @@
 # Projeto hs2json
 
-Projeto em Haskell para representar valores JSON e serializá-los em formato legível (*pretty-printed*) ou compacto, sem depender de uma biblioteca externa de JSON para a lógica principal.
+Projeto em Haskell para obtenção de nota na segunda atividade avaliativa da disciplina EECP0047 - TÓPICOS EM ENGENHARIA DA COMPUTAÇÃO II - INTRODUÇÃO A PROGRAMAÇÃO FUNCIONAL (2026 .2 - T01)
 
 ## Funcionalidades
 
