@@ -10,9 +10,9 @@ example =
     , ("unidade", JNumber 2)
     , ("aprovado", JBool True)
     , ("observacao", JString "JSON com\nquebras e acentos: café")
-    , ("participantes", JArray
-        [ JString "Pessoa 1"
-        , JString "Pessoa 2"
+    , ("Estudantes", JArray
+        [ JString "Amanda"
+        , JString "Caroline"
         ])
     , ("metadados", JNull)
     ]
